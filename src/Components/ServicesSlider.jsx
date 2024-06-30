@@ -8,32 +8,32 @@ const services = [
   {
     id: 1,
     image: 'service1.png',
-    title: 'Website Design',
-    description: 'Our expert team of designers will work closely with you to create a visually stunning website that will strongly reflect your brand idea',
+    title: 'Website Development',
+    description: 'Our skilled developers will help your visualization of the ideal website to meet reality. We will bring your website.',
   },
   {
     id: 2,
     image: 'service2.png',
-    title: 'Website Development',
-    description: 'Our skilled developers will help your visualization of the ideal website to meet reality. We will bring your website design to life',
+    title: 'App Development',
+    description: 'Revolutionize your business with our cutting-edge app development services. From concept to launch, we specialize.',
   },
   {
     id: 3,
     image: 'service3.png',
-    title: 'SEO',
-    description: 'Drive your business to the top of search engine results with our dynamic SEO services. From optimizing website content to strategic which represent this',
+    title: 'Hosting/Official Mail',
+    description: 'We Offer Reliable And Secure Hosting Solutions Along With Professional Email Services To Empower Your Online Presence And Streamline.',
   },
   {
     id: 4,
     image: 'service4.png',
     title: 'Graphic Design',
-    description: 'Transform your brand with our dynamic graphic design services. From eye-catching logos to compelling brand identities, we specialize in the functioning of the design.',
+    description: 'Transform your brand with our dynamic graphic design services. From eye-catching logos to compelling brand identities, we specialize in the functioning.',
   },
   {
     id: 5,
     image: 'service5.png',
-    title: 'App Development',
-    description: 'Revolutionize your business with our cutting-edge app development services. From concept to launch, we specialize. ',
+    title: 'SEO',
+    description: 'Drive your business to the top of search engine results with our dynamic SEO services.',
   },
   {
     id: 6,
@@ -87,7 +87,7 @@ const ServicesSlider = () => {
       </Slider>
       <div className="flex justify-center mt-8 mb-8">
         <Link to="/Services">
-          <button className="bg-blue-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          <button className="bg-blue-900 hover:bg-Blue-1000 text-white font-bold py-2 px-4 rounded-full">
             Explore More
           </button>
         </Link>

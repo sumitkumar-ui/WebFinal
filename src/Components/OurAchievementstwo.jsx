@@ -2,18 +2,17 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import NavBar from '../Components/NavBar'
-import Footer from '../Components/Footer'
+import NavBar from './NavBar';
+import Footer from './Footer';
 
-
-const  OurAchievementstwo = () => {
+const OurAchievements = () => {
   const images = [
     '/google.png',
-  '/msme.png',
-  '/iso.png',
-  '/fb.png',
-  '/startup.png',
-  '/mca.png',
+    '/msme.png',
+    '/iso.png',
+    '/fb.png',
+    '/startup.png',
+    '/mca.png',
   ];
 
   const settings = {
@@ -37,8 +36,9 @@ const  OurAchievementstwo = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          centerMode: false,
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: '0px', // Center the image for mobile view
         },
       },
     ],
@@ -47,22 +47,22 @@ const  OurAchievementstwo = () => {
   return (
     <>
     <NavBar/>
-    <div className="w-full text-center mt-0 py-8 bg-Blue-3000">
+    <div className="w-full text-center  py-12 bg-Blue-3000">
       <h2 className="text-3xl font-bold text-center mb-4">Our Achievements</h2>
       <div className="overflow-x-hidden">
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index} className="h-64">
-            <img src={image} alt={`Achievement ${index + 1}`} className="w-60 h-full object-contain" />
-            
-          </div>
-        ))}
-      </Slider>
-    </div>
+        <Slider {...settings}>
+          {images.map((image, index) => (
+            <div key={index} className="h-64">
+              <img src={image} alt={`Achievement ${index + 1}`} className="w-60 h-full object-contain mx-auto" />
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
     <Footer/>
+   
     </>
   );
 };
 
-export default OurAchievementstwo;
+export default OurAchievements;

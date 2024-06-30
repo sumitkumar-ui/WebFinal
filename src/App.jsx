@@ -7,10 +7,12 @@ import Internship from './Components/Internship'
 import AboutUstwo from './Components/AboutUstwo'
 import OurAchievementstwo from './Components/OurAchievementstwo'
 import Methodologytwo from '../src/Components/Methodologytwo'
+import useScrollToTop from './Components/useScrollToTop'
 
 
 
 const App = () => {
+  useScrollToTop()
   return (
     <>
      

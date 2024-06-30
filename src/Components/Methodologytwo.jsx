@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../Components/NavBar'
-import Footer from '../Components/Footer'
+
 
 const Methodologytwo = () => {
   return (
@@ -42,7 +42,7 @@ const Methodologytwo = () => {
         </div>
       </div>
     </div>
-    <Footer/>
+    
     </>
   );
 };

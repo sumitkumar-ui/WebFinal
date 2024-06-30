@@ -4,10 +4,10 @@ function Aboutus() {
   return (
     <>
       <div className="mx-auto max-w-7xl mt-20">
-        <header className="text-center py-8">
+        <header className="text-center py-8 mx-4 md:mx-0">
           <h1 className="text-3xl font-bold">About Us</h1>
           <p className="mt-4">
-          Discover the power of seamless digital solutions with NovaNectar Services Private Limited. Staying true to our motto "Your Problems, Our Solutions", our team offers a variety of services, app including website development ,digital marketing ,graphic design, app development and premium SEO services to say the least. 
+            Discover the power of seamless digital solutions with NovaNectar Services Private Limited. Staying true to our motto "Your Problems, Our Solutions", our team offers a variety of services, including website development, digital marketing, graphic design, app development, and premium SEO services to say the least. 
           </p>
         </header>
 

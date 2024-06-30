@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import NavBar from '../Components/NavBar';
-import Footer from '../Components/Footer';
+import Footer from './Footer';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -43,7 +43,7 @@ const ContactUs = () => {
     <>
       <NavBar />
       <div className="w-full text-center mt-0 py-3 bg-Blue-3000">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 mt-8">Contact Us</h2>
+        <h2 className="text-3xl md:text-3xl font-bold mb-10 mt-8">Contact Us</h2>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 p-4">
             {/* Google Map location */}
@@ -122,7 +122,8 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer/>
+      
     </>
   );
 };
