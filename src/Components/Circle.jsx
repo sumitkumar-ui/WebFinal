@@ -3,8 +3,8 @@ import './Circle.css';
 
 const Circle = () => {
   return (
-    <div className="container mx-auto -mt-2 -mb-2 lg:-mt-10 lg:-mb-36">
-      <div className="heading">Technologies Stack</div>
+    <div className="container mx-auto text-center mt-12 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12">Technologies Stack</h2>
       <div className="circle-container">
         <div className="big-circle">
           <div className="small-circle center">
@@ -40,9 +40,12 @@ const Circle = () => {
           <div className="small-circle six">
             <img src="/java-2.svg" alt="Six" />
           </div>
+          
+          
         </div>
       </div>
-    </div>
+      </div>
+   
   );
 };
 

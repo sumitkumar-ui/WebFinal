@@ -158,7 +158,7 @@ const Internship = () => {
     <>
     <NavBar/>
     <div className="bg-Blue-3000 w-full text-center mt-0 py-3">
-      <h1 className="text-3xl font-bold mb-8 text-center ">Internship Positions</h1>
+      <h1 className="text-3xl font-bold mb-10 mt-10 text-center ">Internship Positions</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {internships.map((internship) => (
           <div key={internship.id} className="p-4 rounded-lg overflow-hidden flex flex-col justify-center items-center mb-10">
@@ -177,6 +177,7 @@ const Internship = () => {
       </div>
     </div>
     <Footer/>
+   
     </>
   );
 };

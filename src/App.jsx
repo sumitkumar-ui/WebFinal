@@ -4,13 +4,16 @@ import {Routes, Route,} from 'react-router-dom'
 import Services from './Components/Services'
 import ContactUs from './Components/ContactUs'
 import Internship from './Components/Internship'
+import IndustrialTraining from './Components/IndustrailTraining'
 import AboutUstwo from './Components/AboutUstwo'
 import OurAchievementstwo from './Components/OurAchievementstwo'
 import Methodologytwo from '../src/Components/Methodologytwo'
+import useScrollToTop from './Components/useScrollToTop'
 
 
 
 const App = () => {
+  useScrollToTop()
   return (
     <>
      
@@ -23,6 +26,7 @@ const App = () => {
 <Route path="/Internship" element={<Internship/>}/>
 <Route path="/ContactUs" element={<ContactUs/>}/>
 <Route path="/OurAchievementstwo" element={<OurAchievementstwo/>}/>
+<Route path="/industrial-training" element={<IndustrialTraining />} />
 <Route path="/Methodologytwo" element={<Methodologytwo/>}/>
 
 
